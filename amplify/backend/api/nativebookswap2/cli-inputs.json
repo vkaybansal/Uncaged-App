@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "nativebookswap2",
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 365,
+      "apiKeyExpirationDate": "2024-06-27T17:49:39.334Z",
+      "keyDescription": "28junKey1"
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": []
+  }
+}

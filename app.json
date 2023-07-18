@@ -1,15 +1,24 @@
 {
   "expo": {
-    "name": "nativeBookSwap",
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./local/assets/logo.png",
+          "color": "#ffffff"
+        }
+      ]
+    ],
+    "name": "Uncaged!",
     "slug": "nativeBookSwap",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#A48578"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -18,16 +27,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+      "supportsTablet": true,
+      "buildNumber": "1.0.1",
+      "bundleIdentifier": "com.mishty.uncaged"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "20a80c44-3529-40e0-bc24-df0d720da374"
+      }
     }
   }
 }

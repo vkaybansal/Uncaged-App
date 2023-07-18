@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nativebookswap2-dev-203508-authRole",
+      "UnauthRoleArn": "arn:aws:iam::131511869128:role/amplify-nativebookswap2-dev-203508-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::131511869128:role/amplify-nativebookswap2-dev-203508-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-nativebookswap2-dev-203508-deployment",
+      "UnauthRoleName": "amplify-nativebookswap2-dev-203508-unauthRole",
+      "StackName": "amplify-nativebookswap2-dev-203508",
+      "StackId": "arn:aws:cloudformation:us-west-2:131511869128:stack/amplify-nativebookswap2-dev-203508/a2153450-aa8e-11ed-bd2d-068a41497e41",
+      "AmplifyAppId": "d1qt69t98pzmrm"
+    },
+    "categories": {
+      "api": {
+        "nativebookswap2": {}
+      },
+      "auth": {
+        "nativeBookSwap2": {}
+      }
+    }
+  }
+}
